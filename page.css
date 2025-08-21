@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+    transform: all ease-in-out 0.3s;
+}
+body{
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100vh;}
+
+.description{
+    max-width: 450px;
+    height: max-content;
+    position:relative;
+    font-size: 1.5rem;
+    top:100px;
+    left:-350px;
+}
+.description h2{
+    animation-name: a1;
+    animation-duration: 3s ;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running ;
+    
+    
+}
+@keyframes a1{
+    from{
+        font-size: 10px;
+        
+    }
+    to{
+        font-size:40px;
+        
+    }
+}
+#startbtn button{
+    width:120px;
+    height:40px;
+    background-color: yellowgreen;
+   
+    border-radius: 5mm;
+    position:relative;
+    top:150px;
+    left:110px;
+}
+#startbtn button a{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin:0 auto;
+    transform: all ease-in-out 0.3s;
+}
+body{
+    background-image: url(images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    overflow:hidden;
+}
+header {
+
+    height:50px;
+    opacity: .9;
+    background-color: aquamarine;
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    
+}
+
+.title {
+    width:250px;
+    color:blue;
+    position:relative;
+    bottom:12px;
+    justify-content: flex-start;
+   
+    text-align: left;
+    padding-top:5px;
+    left:-40px;
+
+}
+.title img{
+    height:40px;
+    width:40px;
+    display:inline-flex;
+}
+.title h3{
+    font-size: 30px;
+    display: inline-flex;
+    position:relative;
+    bottom:10px;
+    left:10px;
+    font-family: "Montserrat", sans-serif;
+}
+.ifm{
+    width:100%;
+    height:580px;
+}
+#login,#signup{
+    transform:scale(1.2);
+    opacity:1;
+    background-color:  rgba(247, 35, 35, 0.897) ;
+    border:2px solid red;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    font-size:15px;
+    margin:0px 2px ;
+}
+#login:hover{
+    transform:scale(1.3);
+    margin:0px 5px 5px 0px;
+    color:yellow;
+}
+#signup:hover{
+    transform: scale(1.3);
+    margin:0px 0px 5px 5px;
+    color:yellow;
+}
+header div a{
+    text-decoration: none;
+    color:black;
+    position:fixed;
+    
+}
+header div a:hover{
+    transform:scale(1.1);
+    margin:0px 0px 6px 6px;
+    text-decoration:wavy;
+    
+}
